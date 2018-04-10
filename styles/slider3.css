@@ -1,0 +1,11 @@
+
+
+
+.red{color: red;}
+
+.window{width: 400px;height:300px;overflow: hidden;margin: 20px auto}
+.images{transition: transform 0.5s;position: relative;width: 100%;top: 0}
+.images>img{position: absolute;transition: all 1500ms;width: 100%}
+.previous{transform: translateX(-100%);z-index: 1}
+.current{transform: translateX(0);z-index: 1;left: 0}
+.next{transform: translateX(100%);}
